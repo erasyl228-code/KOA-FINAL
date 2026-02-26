@@ -30,6 +30,532 @@
 
   <script>
     const data = [
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af83c" },
+  "category": "COA",
+  "text": "Virtualization software",
+  "options": [
+    {
+      "text": "provides organizations with on-demand delivery of computing services over the network",
+      "isCorrect": false
+    },
+    {
+      "text": "separates the actual physical hardware from the virtual machine (VM) instances",
+      "isCorrect": true
+    },
+    {
+      "text": "separates the applications from the hardware",
+      "isCorrect": false
+    },
+    {
+      "text": "can be saved as a file and then be re-started when required",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Virtualization software abstracts the physical hardware from virtual machines, allowing multiple VMs to run independently on the same physical host.",
+  "order": 26
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af83b" },
+  "category": "COA",
+  "text": "Optional values",
+  "options": [
+    {
+      "text": "- identifies this device on the network",
+      "isCorrect": false
+    },
+    {
+      "text": "- is used to identify the network on which this device is connected",
+      "isCorrect": false
+    },
+    {
+      "text": "- identifies the router that this device uses to access the internet or another network",
+      "isCorrect": false
+    },
+    {
+      "text": "- such as the preferred Domain Name System (DNS) server address and the alternate DNS server address",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "Optional values in network configuration typically include DNS server addresses, which help the device resolve domain names to IP addresses.",
+  "order": 24
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af83a" },
+  "category": "COA",
+  "text": "Describe the advantage of virtualization: Better use of resources",
+  "options": [
+    {
+      "text": "virtualization reduces the number of physical servers, netoworking devices, supporting infrastructure, and maintenance cost.",
+      "isCorrect": true
+    },
+    {
+      "text": "server consolidation with virtualization reduces the overall footprint of the data center.",
+      "isCorrect": false
+    },
+    {
+      "text": "consolodating server lowers the monthly power and cooling costs. Reduced consumption helps enterprises to achieve a smaller carbon footprint.",
+      "isCorrect": false
+    },
+    {
+      "text": "creating VM takes less time than a physical server",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Virtualization allows better use of resources by reducing the number of physical servers and associated infrastructure, lowering costs and improving efficiency.",
+  "order": 21
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af839" },
+  "category": "COA",
+  "text": "Indicate which of the following cannot be provided by DHCP?",
+  "options": [
+    {
+      "text": "IPv4 address",
+      "isCorrect": false
+    },
+    {
+      "text": "Subnet mask",
+      "isCorrect": false
+    },
+    {
+      "text": "Default gateway",
+      "isCorrect": false
+    },
+    {
+      "text": "MAC address",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "DHCP can assign IP addresses, subnet masks, and default gateways, but the MAC address is a hardware property of the network interface and cannot be assigned by DHCP.",
+  "order": 20
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af838" },
+  "category": "COA",
+  "text": "How many subfolders you can create?",
+  "options": [
+    {
+      "text": "260",
+      "isCorrect": false
+    },
+    {
+      "text": "limited by max length of the path to folder",
+      "isCorrect": true
+    },
+    {
+      "text": "limited by min length of the path to folder",
+      "isCorrect": false
+    },
+    {
+      "text": "128",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The number of subfolders is limited by the maximum path length allowed by the file system, not by a fixed numeric limit.",
+  "order": 17
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af837" },
+  "category": "COA",
+  "text": "Which of the following is not component of Laser Printer?",
+  "options": [
+    {
+      "text": "Fuser Assembly",
+      "isCorrect": false
+    },
+    {
+      "text": "Imaging Drum",
+      "isCorrect": false
+    },
+    {
+      "text": "Print Head",
+      "isCorrect": true
+    },
+    {
+      "text": "Toner Cartridge",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Laser printers do not use a print head (which is a component of inkjet printers); they use a fuser, imaging drum, and toner cartridge to produce prints.",
+  "order": 13
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af836" },
+  "category": "COA",
+  "text": "During the conversation with customer, if you see that customer is explaining too long his issue, is it ok to interrupt him?",
+  "options": [
+    {
+      "text": "Yes, it is ok, because you need to focus on immediate problem solving",
+      "isCorrect": false
+    },
+    {
+      "text": "No, this is rude, disrespectful, and creates tension.",
+      "isCorrect": true
+    },
+    {
+      "text": "Yes, this will optimize work, because you have a lots of customers in queue",
+      "isCorrect": false
+    },
+    {
+      "text": "No, this is not ok, but you can do it, because customer would not be offended.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Interrupting a customer is considered rude and disrespectful, and can damage the relationship. It's important to listen patiently and allow the customer to fully explain their issue.",
+  "order": 10
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af835" },
+  "category": "COA",
+  "text": "Ping",
+  "options": [
+    {
+      "text": "used to test connections between computers",
+      "isCorrect": true
+    },
+    {
+      "text": "used to assign IP address",
+      "isCorrect": false
+    },
+    {
+      "text": "used to check IP address",
+      "isCorrect": false
+    },
+    {
+      "text": "used to test PC health",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Ping is a network utility used to test the reachability of a host on an IP network and measure round-trip time for messages sent.",
+  "order": 6
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af834" },
+  "category": "COA",
+  "text": "Cloud computing",
+  "options": [
+    {
+      "text": "separates the actual physical hardware from the virtual machine (VM) instances",
+      "isCorrect": false
+    },
+    {
+      "text": "enables a single computer to host multiple independent virtual computers that share the host computer hardware",
+      "isCorrect": false
+    },
+    {
+      "text": "separates the applications from the hardware",
+      "isCorrect": true
+    },
+    {
+      "text": "can be saved as a file and then be re-started when required",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Cloud computing abstracts applications from the underlying physical hardware, allowing them to run on shared resources over the internet.",
+  "order": 4
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af833" },
+  "category": "COA",
+  "text": "Which of the following is a measurement of printer speed?",
+  "options": [
+    {
+      "text": "PPM",
+      "isCorrect": true
+    },
+    {
+      "text": "dpi",
+      "isCorrect": false
+    },
+    {
+      "text": "CMY",
+      "isCorrect": false
+    },
+    {
+      "text": "CMYK",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Printer speed is commonly measured in PPM (Pages Per Minute), indicating how many pages a printer can produce in one minute.",
+  "order": 3
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af832" },
+  "category": "COA",
+  "text": "Global Positioning System (GPS) is...",
+  "options": [
+    {
+      "text": "locks onto a GPS signals and constantly calculates its position relative to these satellites",
+      "isCorrect": false
+    },
+    {
+      "text": "is a stallite-based naviation system",
+      "isCorrect": true
+    },
+    {
+      "text": "calculates a speed and time",
+      "isCorrect": false
+    },
+    {
+      "text": "calculates distance to destination",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "GPS is a satellite-based navigation system that provides location and time information anywhere on or near the Earth.",
+  "order": 6
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af831" },
+  "category": "COA",
+  "text": "Users cannot access their online mailboxes using",
+  "options": [
+    {
+      "text": "Default mobile email app included in the OS such as iOS Mail.",
+      "isCorrect": false
+    },
+    {
+      "text": "Going to local post office.",
+      "isCorrect": true
+    },
+    {
+      "text": "Browser-based email client, such as Mail or Outlook.",
+      "isCorrect": false
+    },
+    {
+      "text": "Mobile email client apps, including Gmail and Yahoo.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Online mailboxes are accessed via internet-based email clients or apps, not through physical postal services.",
+  "order": 8
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af830" },
+  "category": "COA",
+  "text": "Find definition of the term used when describing Operating System: Multiprocessing",
+  "options": [
+    {
+      "text": "Two or more users have individual accounts that allow them to work with programs and peripheral devices at the same time.",
+      "isCorrect": false
+    },
+    {
+      "text": "The computer is capable of operating multiple applications at the same time.",
+      "isCorrect": false
+    },
+    {
+      "text": "The operating system can support two or more CPUs.",
+      "isCorrect": true
+    },
+    {
+      "text": "A program can be broken into smaller parts that are loaded as needed by the operating system.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Multiprocessing refers to an operating system's ability to utilize and manage two or more CPUs (processors) to execute processes simultaneously.",
+  "order": 14
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af829" },
+  "category": "COA",
+  "text": "Describe the advantage of virtualization: Improved disaster recovery",
+  "options": [
+    {
+      "text": "virtualization offers advanced redundant fault tolerance features, such as live migration, storage migration, high availability, and distributed resource scheduling.",
+      "isCorrect": false
+    },
+    {
+      "text": "virtualization offers advanced solutions to keep business continuing during disaster.",
+      "isCorrect": true
+    },
+    {
+      "text": "virtualization can extend the life of OSs and applications providing more time for organizations to migrate to newer solutions.",
+      "isCorrect": false
+    },
+    {
+      "text": "creating VM takes less time than a physical server.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Virtualization improves disaster recovery by enabling rapid backup, replication, and restoration of virtual machines, ensuring business continuity during failures or disasters.",
+  "order": 19
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af828" },
+  "category": "COA",
+  "text": "Describe the problem of traditional server deployment: Server sprawl",
+  "options": [
+    {
+      "text": "This occurs when dedicated servers sit idle for long periods waiting until they are needed to deliver their specific service.",
+      "isCorrect": false
+    },
+    {
+      "text": "This occurs when a dedicated server fails or goes offline.",
+      "isCorrect": false
+    },
+    {
+      "text": "This occurs when an organization does not have adequate space to physically house underutilized servers.",
+      "isCorrect": true
+    },
+    {
+      "text": "This occurs when an organization have insufficient funds to purchase new equipment.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Server sprawl refers to the proliferation of underutilized physical servers that consume data center space, power, and cooling resources, creating management and capacity issues.",
+  "order": 22
+},
+
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af827" },
+  "category": "COA",
+  "text": "Which protocol is used nowadays in Wi-Fi encryption?",
+  "options": [
+    {
+      "text": "SHA",
+      "isCorrect": true
+    },
+    {
+      "text": "MD5",
+      "isCorrect": false
+    },
+    {
+      "text": "TCP",
+      "isCorrect": false
+    },
+    {
+      "text": "SSO",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Modern Wi-Fi security protocols use cryptographic hash functions such as SHA as part of authentication and key derivation mechanisms (e.g., in WPA2/WPA3).",
+  "order": 0
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af826" },
+  "category": "COA",
+  "text": "Flash Card Readers",
+  "options": [
+    {
+      "text": "is a removable storage device that connects to an expansion port such as USB, eSATA, or Firewire.",
+      "isCorrect": false
+    },
+    {
+      "text": "is a data storage device that uses flash memory to store information. They are small, portable, and require no power to maintain data.",
+      "isCorrect": false
+    },
+    {
+      "text": "Most modern laptops feature it for Secure Digital (SD) and Secure Digital High Capacity (SDHC) flash cards.",
+      "isCorrect": true
+    },
+    {
+      "text": "are used to read and write to smart cards and can be connected to a laptop using a USB port.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Flash card readers are hardware interfaces built into or connected to computers that allow reading and writing data on flash memory cards such as SD and SDHC.",
+  "order": 0
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af825" },
+  "category": "COA",
+  "text": "Master Boot Record",
+  "options": [
+    {
+      "text": "contains information on how the hard drive partitions are organized.",
+      "isCorrect": true
+    },
+    {
+      "text": "makes use of a number of modern techniques to expand on the older MBR partitioning scheme",
+      "isCorrect": false
+    },
+    {
+      "text": "is commonly used in computers with UEFI firmware",
+      "isCorrect": false
+    },
+    {
+      "text": "Most modern operating systems now support it",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "The Master Boot Record (MBR) stores partition table information and bootloader code that defines how a hard drive is partitioned and how the system boots.",
+  "order": 0
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af824" },
+  "category": "COA",
+  "text": "Which standard used for securing access to WiFi access points?",
+  "options": [
+    {
+      "text": "WPA",
+      "isCorrect": false
+    },
+    {
+      "text": "WPA2",
+      "isCorrect": true
+    },
+    {
+      "text": "WPA5",
+      "isCorrect": false
+    },
+    {
+      "text": "WPA4",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "WPA2 (Wi-Fi Protected Access 2) is the widely adopted security standard for protecting Wi-Fi networks using strong encryption (AES).",
+  "order": 0
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af823" },
+  "category": "COA",
+  "text": "Firmware vs Driver",
+  "options": [
+    {
+      "text": "Firmware can address issues that cannot be addressed by driver",
+      "isCorrect": true
+    },
+    {
+      "text": "Driver updates can be more harmful to system if incorrectly updated.",
+      "isCorrect": false
+    },
+    {
+      "text": "Firmware updates provided by particular software vendor",
+      "isCorrect": false
+    },
+    {
+      "text": "Driver updates provided by particular hardware vendor",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Firmware operates at a lower hardware level than drivers and can fix issues that drivers alone cannot address.",
+  "order": 27
+},
+      {
+  "_id": { "$oid": "6999c7a14ce46505b60af822" },
+  "category": "COA",
+  "text": "Guest OS",
+  "options": [
+    {
+      "text": "the physical machine under administration.",
+      "isCorrect": false
+    },
+    {
+      "text": "the OS of the physical machine",
+      "isCorrect": false
+    },
+    {
+      "text": "the OS that is provisioned in the virtual machine",
+      "isCorrect": true
+    },
+    {
+      "text": "the virtualization software",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Guest OS is the operating system installed inside a virtual machine and running on top of the host OS via virtualization software.",
+  "order": 17
+},
   {
     "_id": {"$oid": "6999c7a14ce46505b60af81f"},
     "category": "COA",
@@ -80,6 +606,7 @@
     "order": 2,
     "text": "Examples of Infrastructure as a Service (IaaS)"
   },
+
   {
     "_id": {"$oid": "6999c7a14ce46505b60af821"},
     "category": "COA",
@@ -441,7 +968,7 @@
       },
       {
         "text": "Salesforce customer management relationship (CRM) software, Microsoft Office 365, MS SharePoint software, and Google G Suite.",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "Google Drive, Dropbox.",
@@ -449,7 +976,7 @@
       },
       {
         "text": "Amazon Web Service, Oracle Cloud, Google Cloud Platform and Microsoft Azure.",
-        "isCorrect": false
+        "isCorrect": true
       }
     ],
     "order": 17,
@@ -612,11 +1139,11 @@
     "options": [
       {
         "text": "use locator app",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "remote lock",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "remote desktop",
@@ -729,31 +1256,6 @@
     ],
     "order": 28,
     "text": "Which of the following can be CRU (customer-replaceable unit)?"
-  },
-  {
-    "_id": {"$oid": "6999cbf34ce46505b60af83c"},
-    "category": "COA",
-    "explanation": "SSH encrypts all traffic, whereas Telnet sends data in plain text.",
-    "options": [
-      {
-        "text": "Telnet is more secure",
-        "isCorrect": false
-      },
-      {
-        "text": "SSH communicates thru port 21",
-        "isCorrect": false
-      },
-      {
-        "text": "SSH is more secure",
-        "isCorrect": true
-      },
-      {
-        "text": "Telnet communicates thru port 22",
-        "isCorrect": false
-      }
-    ],
-    "order": 29,
-    "text": "Whats the difference between Telnet and SSH?"
   },
   {
     "_id": {"$oid": "6999cbf34ce46505b60af83d"},
@@ -956,31 +1458,6 @@
     "text": "Describe the advantage of virtualization. Less space required."
   },
   {
-    "_id": {"$oid": "6999cbf34ce46505b60af845"},
-    "category": "COA",
-    "explanation": "Thermal printers are cost-effective because they only require heat-sensitive paper.",
-    "options": [
-      {
-        "text": "no cost for ink or toner",
-        "isCorrect": true
-      },
-      {
-        "text": "cheap toner cartridges",
-        "isCorrect": false
-      },
-      {
-        "text": "noisy operation",
-        "isCorrect": false
-      },
-      {
-        "text": "prints come out wet",
-        "isCorrect": false
-      }
-    ],
-    "order": 38,
-    "text": "Which of the following is advantage of Thermal Printer?"
-  },
-  {
     "_id": {"$oid": "6999cbf34ce46505b60af846"},
     "category": "COA",
     "explanation": "The IP address identifies the specific host or device within the network.",
@@ -1016,11 +1493,11 @@
       },
       {
         "text": "is a removable storage device that connects to an expansion port such as USB, eSATA, or Firewire.",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "is a data storage device that uses flash memory to store information. They are small, portable, and require no power to maintain data.",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "Most modern laptops feature it for Secure Digital (SD) and Secure Digital High Capacity (SDHC) flash cards.",
@@ -1125,31 +1602,6 @@
     ],
     "order": 34,
     "text": "Type 1 (native) hypervisor"
-  },
-  {
-    "_id": {"$oid": "6999ce584ce46505b60af84d"},
-    "category": "COA",
-    "explanation": "ExpressCards are for data expansion (I/O), not for providing primary power to the laptop.",
-    "options": [
-      {
-        "text": "Addiotional power supply",
-        "isCorrect": true
-      },
-      {
-        "text": "TV turner cards",
-        "isCorrect": false
-      },
-      {
-        "text": "Wi-Fi connectivity",
-        "isCorrect": false
-      },
-      {
-        "text": "Additional memory card reader",
-        "isCorrect": false
-      }
-    ],
-    "order": 35,
-    "text": "Which of the following CANNOT be an example of functionality that can be added when using ExpressCards?"
   },
   {
     "_id": {"$oid": "6999ce584ce46505b60af84e"},
@@ -1368,31 +1820,7 @@
     "order": 44,
     "text": "Find definition of the term used when describing Operating System. Multi-user."
   },
-  {
-    "_id": {"$oid": "6999ce584ce46505b60af857"},
-    "category": "COA",
-    "explanation": "Paraphrasing confirms your understanding of the customer's problem.",
-    "options": [
-      {
-        "text": "Please descride you issue.",
-        "isCorrect": false
-      },
-      {
-        "text": "Your call is very important for us.",
-        "isCorrect": false
-      },
-      {
-        "text": "Let me see if I understand what you have told me.",
-        "isCorrect": true
-      },
-      {
-        "text": "After the call please assess the agent.",
-        "isCorrect": false
-      }
-    ],
-    "order": 45,
-    "text": "Which of the following can be a good example of paraphrasing when you talking with customer?"
-  },
+
   {
     "_id": {"$oid": "6999ce584ce46505b60af858"},
     "category": "COA",
@@ -1425,7 +1853,7 @@
     "options": [
       {
         "text": "is a data storage device that uses flash memory to store information. They are small, portable, and require no power to maintain data.",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "is a removable storage device that connects to an expansion port such as USB, eSATA, or Firewire.",
@@ -1433,7 +1861,7 @@
       },
       {
         "text": "Most modern laptops feature a it for Secure Digital (SD) and Secure Digital High Capacity (SDHC) flash cards.",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "are used to read and write to smart cards and can be connected to a laptop using a USB port.",
@@ -1768,1998 +2196,9 @@
     "order": 60,
     "text": "Which of the following is not advantage of Laser Printer?"
   },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af869"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Ask customer to swear not to claim if data loss occur",
-        "isCorrect": false
-      },
-      {
-        "text": "Sign a will",
-        "isCorrect": false
-      },
-      {
-        "text": "Immedaitely leave customer site",
-        "isCorrect": false
-      },
-      {
-        "text": "Sign a liability release form",
-        "isCorrect": true
-      }
-    ],
-    "order": 1,
-    "text": "You are about to start troubleshooting actions at customer site. I found that customer does not have a valid backup. What should you do?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af86a"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "WAN",
-        "isCorrect": false
-      },
-      {
-        "text": "VPN",
-        "isCorrect": true
-      },
-      {
-        "text": "WMN",
-        "isCorrect": false
-      },
-      {
-        "text": "MAN",
-        "isCorrect": false
-      }
-    ],
-    "order": 2,
-    "text": "A method of connecting to a network such as a company network across an unsecure network."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af86b"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "WAN",
-        "isCorrect": false
-      },
-      {
-        "text": "WMN",
-        "isCorrect": false
-      },
-      {
-        "text": "VPN",
-        "isCorrect": false
-      },
-      {
-        "text": "MAN",
-        "isCorrect": true
-      }
-    ],
-    "order": 3,
-    "text": "A network that spans a city."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af86c"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "WMN",
-        "isCorrect": false
-      },
-      {
-        "text": "WAN",
-        "isCorrect": true
-      },
-      {
-        "text": "VPN",
-        "isCorrect": false
-      },
-      {
-        "text": "MAN",
-        "isCorrect": false
-      }
-    ],
-    "order": 4,
-    "text": "A network that spans a large geographical area."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af86d"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "LAN",
-        "isCorrect": true
-      },
-      {
-        "text": "VLAN",
-        "isCorrect": false
-      },
-      {
-        "text": "PAN",
-        "isCorrect": false
-      },
-      {
-        "text": "WLAN",
-        "isCorrect": false
-      }
-    ],
-    "order": 5,
-    "text": "A wired network consisting of a switch and network devices in a limited geographical area."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af86e"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "POST errors or a beep code alerts",
-        "isCorrect": true
-      },
-      {
-        "text": "BSOD",
-        "isCorrect": false
-      },
-      {
-        "text": "Messages from error check tool",
-        "isCorrect": false
-      },
-      {
-        "text": "Windows error message",
-        "isCorrect": false
-      }
-    ],
-    "order": 6,
-    "text": "At the very beginning how can you recognize PC malfunctioning?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af86f"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "– High bandwidth connection used in backbone networks, large enterprise environments, large data centers, and now part of some home internet connections.",
-        "isCorrect": true
-      },
-      {
-        "text": "– uses different frequencies to send multiple signals over media.",
-        "isCorrect": false
-      },
-      {
-        "text": "– Uses a cable modem to connect to a traditional cable TV network; shares the network with multiple subscribers.",
-        "isCorrect": false
-      },
-      {
-        "text": "– always on technology that uses phone lines; voice and data carried on different frequencies; requires a filter on the port that connects to a phone.",
-        "isCorrect": false
-      }
-    ],
-    "order": 7,
-    "text": "Broadband is ..."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af870"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "20 (or 24) pin connector and 4 pin connector",
-        "isCorrect": false
-      },
-      {
-        "text": "SATA and Molex connectors",
-        "isCorrect": true
-      },
-      {
-        "text": "Molex and Berg connectors",
-        "isCorrect": false
-      },
-      {
-        "text": "6 pin PCI connector",
-        "isCorrect": false
-      }
-    ],
-    "order": 8,
-    "text": "Choose two types of power connectors that can be connected to HDDs"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af871"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "True",
-        "isCorrect": true
-      },
-      {
-        "text": "False",
-        "isCorrect": false
-      }
-    ],
-    "order": 9,
-    "text": "Close-ended questions generally require a yes or no answer."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af872"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Brownout",
-        "isCorrect": false
-      },
-      {
-        "text": "Noise",
-        "isCorrect": false
-      },
-      {
-        "text": "Blackout",
-        "isCorrect": true
-      },
-      {
-        "text": "Spike",
-        "isCorrect": false
-      }
-    ],
-    "order": 10,
-    "text": "Complete loss of AC power. A blown fuse, damaged transformer, or downed power line can cause a ... ."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af873"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "This architecture uses a small set of instructions, resulting in more steps per operation.",
-        "isCorrect": false
-      },
-      {
-        "text": "This architecture uses a broad set of instructions, resulting in fewer steps per operation.",
-        "isCorrect": true
-      },
-      {
-        "text": "Some well-known CPUs using this architecture are PowerPC and ARM.",
-        "isCorrect": false
-      },
-      {
-        "text": "This architecture uses a relatively small set of instructions.",
-        "isCorrect": false
-      }
-    ],
-    "order": 11,
-    "text": "Complex Instruction Set Computer (CISC)"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af874"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Blackberry and Oppo are some well-known CPUs using this architecture.",
-        "isCorrect": false
-      },
-      {
-        "text": "This architecture uses a small set of instructions, resulting in more steps per operation.",
-        "isCorrect": false
-      },
-      {
-        "text": "This architecture uses a relatively small set of instructions.",
-        "isCorrect": false
-      },
-      {
-        "text": "Intel x86 and Motorola 68k are some well-known CPUs using this architecture.",
-        "isCorrect": true
-      }
-    ],
-    "order": 12,
-    "text": "Complex Instruction Set Computer (CISC)"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af875"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Noise",
-        "isCorrect": false
-      },
-      {
-        "text": "Spike",
-        "isCorrect": false
-      },
-      {
-        "text": "Brownout",
-        "isCorrect": false
-      },
-      {
-        "text": "Power surge",
-        "isCorrect": true
-      }
-    ],
-    "order": 13,
-    "text": "Dramatic increase in voltage above the normal flow of electrical current."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af876"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "– always on technology that uses phone lines; voice and data carried on different frequencies; requires a filter on the port that connects to a phone.",
-        "isCorrect": true
-      },
-      {
-        "text": "– High bandwidth connection used in backbone networks, large enterprise environments, large data centers, and now part of some home internet connections.",
-        "isCorrect": false
-      },
-      {
-        "text": "– uses different frequencies to send multiple signals over media.",
-        "isCorrect": false
-      },
-      {
-        "text": "– Uses a cable modem to connect to a traditional cable TV network; shares the network with multiple subscribers.",
-        "isCorrect": false
-      }
-    ],
-    "order": 14,
-    "text": "DSL (digital subscriber line) is ..."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af877"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "– High bandwidth connection used in backbone networks, large enterprise environments, large data centers, and now part of some home internet connections.",
-        "isCorrect": true
-      },
-      {
-        "text": "– Uses a cable modem to connect to a traditional cable TV network; shares the network with multiple subscribers.",
-        "isCorrect": false
-      },
-      {
-        "text": "– always on technology that uses phone lines; voice and data carried on different frequencies; requires a filter on the port that connects to a phone.",
-        "isCorrect": false
-      },
-      {
-        "text": "– uses different frequencies to send multiple signals over media.",
-        "isCorrect": false
-      }
-    ],
-    "order": 15,
-    "text": "Fiber is ..."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af878"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "copy of the family photos on a computer hard drive that is saved to another storage device or to cloud storage.",
-        "isCorrect": true
-      },
-      {
-        "text": "copy of the family photos sent thru telegram",
-        "isCorrect": false
-      },
-      {
-        "text": "copy of the family photos on your smartphone that is saved to whatsapp chat",
-        "isCorrect": false
-      },
-      {
-        "text": "copy of the family photos published in instagram",
-        "isCorrect": false
-      }
-    ],
-    "order": 16,
-    "text": "How can you understand the term \"data backup\"?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af879"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Time period when customer equipment is downloading software",
-        "isCorrect": false
-      },
-      {
-        "text": "Time period when customer equipment is out of production",
-        "isCorrect": true
-      },
-      {
-        "text": "Time period when customer equipment is working at high performance",
-        "isCorrect": false
-      },
-      {
-        "text": "Time period when customer equipment is performing backup",
-        "isCorrect": false
-      }
-    ],
-    "order": 17,
-    "text": "How can you understand the term \"downtime\"?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af87a"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Network Cloud",
-        "isCorrect": true
-      },
-      {
-        "text": "Cloud Media",
-        "isCorrect": false
-      },
-      {
-        "text": "Windows Media",
-        "isCorrect": false
-      },
-      {
-        "text": "Google Cloud",
-        "isCorrect": false
-      }
-    ],
-    "order": 18,
-    "text": "In this course we diferentaite 4 types of the network media (the medium): LAN Media, WAN Media, Wireless Media and one more. Define one missing media type."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af87b"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Keep the room temperature between 100 to 110 degrees Celsius",
-        "isCorrect": false
-      },
-      {
-        "text": "Temperature and humidity recommendations vary by computer manufacturer.",
-        "isCorrect": true
-      },
-      {
-        "text": "Keep the room temperature between 45 to 90 degrees Celsius",
-        "isCorrect": false
-      },
-      {
-        "text": "Keep the humidity level between 110 and 180 percent.",
-        "isCorrect": false
-      }
-    ],
-    "order": 19,
-    "text": "Indicate temperature guideline for optimal computer performance"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af87c"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Spike",
-        "isCorrect": false
-      },
-      {
-        "text": "Power surge",
-        "isCorrect": false
-      },
-      {
-        "text": "Brownout",
-        "isCorrect": false
-      },
-      {
-        "text": "Noise",
-        "isCorrect": true
-      }
-    ],
-    "order": 20,
-    "text": "Interference from generators and lightning."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af87d"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "– Uses a cable modem to connect to a traditional cable TV network; shares the network with multiple subscribers.",
-        "isCorrect": false
-      },
-      {
-        "text": "– always on technology that uses radio signals for connecting to the internet.",
-        "isCorrect": true
-      },
-      {
-        "text": "– High bandwidth connection used in backbone networks, large enterprise environments, large data centers, and now part of some home internet connections.",
-        "isCorrect": false
-      },
-      {
-        "text": "– always on technology that uses phone lines; voice and data carried on different frequencies; requires a filter on the port that connects to a phone.",
-        "isCorrect": false
-      }
-    ],
-    "order": 21,
-    "text": "Line of site wireless is ..."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af87e"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "TCP, UDP",
-        "isCorrect": false
-      },
-      {
-        "text": "IP",
-        "isCorrect": false
-      },
-      {
-        "text": "FTP, HTTP, SMTP, DNS, TFTP",
-        "isCorrect": true
-      },
-      {
-        "text": "LAN, WAN",
-        "isCorrect": false
-      }
-    ],
-    "order": 22,
-    "text": "List the components of Application Layer of TCP/IP Model."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af87f"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "FTP, HTTP, SMTP, DNS, TFTP",
-        "isCorrect": false
-      },
-      {
-        "text": "IP",
-        "isCorrect": true
-      },
-      {
-        "text": "TCP, UDP",
-        "isCorrect": false
-      },
-      {
-        "text": "LAN, WAN",
-        "isCorrect": false
-      }
-    ],
-    "order": 23,
-    "text": "List the components of Internet Layer of TCP/IP Model."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af880"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "IP",
-        "isCorrect": false
-      },
-      {
-        "text": "LAN, WAN",
-        "isCorrect": true
-      },
-      {
-        "text": "FTP, HTTP, SMTP, DNS, TFTP",
-        "isCorrect": false
-      },
-      {
-        "text": "TCP, UDP",
-        "isCorrect": false
-      }
-    ],
-    "order": 24,
-    "text": "List the components of Network Access Layer of TCP/IP Model."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af881"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "IP",
-        "isCorrect": false
-      },
-      {
-        "text": "TCP, UDP",
-        "isCorrect": true
-      },
-      {
-        "text": "FTP, HTTP, SMTP, DNS, TFTP",
-        "isCorrect": false
-      },
-      {
-        "text": "LAN, WAN",
-        "isCorrect": false
-      }
-    ],
-    "order": 25,
-    "text": "List the components of Transport Layer of TCP/IP Model."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af882"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "expresses how wattage is equal to the current multiplied by the resistance: V = IR.",
-        "isCorrect": false
-      },
-      {
-        "text": "expresses how voltage is equal to the current multiplied by the transistor: V = IR.",
-        "isCorrect": false
-      },
-      {
-        "text": "expresses how voltage is equal to the power multiplied by the resistance: V = IR.",
-        "isCorrect": false
-      },
-      {
-        "text": "expresses how voltage is equal to the current multiplied by the resistance: V = IR.",
-        "isCorrect": true
-      }
-    ],
-    "order": 26,
-    "text": "Ohm's Law"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af883"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "False",
-        "isCorrect": false
-      },
-      {
-        "text": "True",
-        "isCorrect": true
-      }
-    ],
-    "order": 27,
-    "text": "Open-ended questions allow customers to explain the details of the problem in their own words."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af884"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "True",
-        "isCorrect": true
-      },
-      {
-        "text": "False",
-        "isCorrect": false
-      }
-    ],
-    "order": 28,
-    "text": "Preventive maintenance covers both hardware and software."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af885"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "a collection of transistors interconnected by wires.",
-        "isCorrect": true
-      },
-      {
-        "text": "a collection of resistors interconnected by wires.",
-        "isCorrect": false
-      },
-      {
-        "text": "a collection of capacitors interconnected by wires.",
-        "isCorrect": false
-      },
-      {
-        "text": "a collection of diode interconnected by wires.",
-        "isCorrect": false
-      }
-    ],
-    "order": 29,
-    "text": "Processor chip is ... ."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af886"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "This architecture uses a relatively odd set of instructions.",
-        "isCorrect": false
-      },
-      {
-        "text": "This architecture uses a relatively even set of instructions.",
-        "isCorrect": false
-      },
-      {
-        "text": "This architecture uses a relatively huge set of instructions.",
-        "isCorrect": false
-      },
-      {
-        "text": "This architecture uses a relatively small set of instructions.",
-        "isCorrect": true
-      }
-    ],
-    "order": 30,
-    "text": "Reduced Instruction Set Computer (RISC)"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af887"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "This architecture uses a relatively huge set of instructions.",
-        "isCorrect": false
-      },
-      {
-        "text": "Some well-known CPUs using this architecture are PowerPC and ARM.",
-        "isCorrect": true
-      },
-      {
-        "text": "This architecture uses a broad set of instructions, resulting in fewer steps per operation.",
-        "isCorrect": false
-      },
-      {
-        "text": "Some well-known CPUs using this architecture are Samsung and Tesla.",
-        "isCorrect": false
-      }
-    ],
-    "order": 31,
-    "text": "Reduced Instruction Set Computer (RISC)"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af888"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Brownout",
-        "isCorrect": true
-      },
-      {
-        "text": "Noise",
-        "isCorrect": false
-      },
-      {
-        "text": "Power surge",
-        "isCorrect": false
-      },
-      {
-        "text": "Spike",
-        "isCorrect": false
-      }
-    ],
-    "order": 32,
-    "text": "Reduced voltage level of AC power that lasts for a period of time"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af889"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Spike",
-        "isCorrect": true
-      },
-      {
-        "text": "Brownout",
-        "isCorrect": false
-      },
-      {
-        "text": "Blackout",
-        "isCorrect": false
-      },
-      {
-        "text": "Noise",
-        "isCorrect": false
-      }
-    ],
-    "order": 33,
-    "text": "Sudden increase in voltage that lasts for a short period and exceeds 100 percent of the normal voltage on a line."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af88a"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "True",
-        "isCorrect": true
-      },
-      {
-        "text": "False",
-        "isCorrect": false
-      }
-    ],
-    "order": 34,
-    "text": "TCP transfer protocol is reliable."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af88b"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "sending data thru bluetooth",
-        "isCorrect": false
-      },
-      {
-        "text": "connecting bluetooth earphones",
-        "isCorrect": false
-      },
-      {
-        "text": "adding new device in device manager",
-        "isCorrect": false
-      },
-      {
-        "text": "sharing internet thru mobile phone",
-        "isCorrect": true
-      }
-    ],
-    "order": 35,
-    "text": "Tethering is ..."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af88c"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "The new RAM is faulty.",
-        "isCorrect": false
-      },
-      {
-        "text": "The incorrect type of RAM was installed.",
-        "isCorrect": false
-      },
-      {
-        "text": "The RAM that has been added is not the same type of RAM that is already installed.",
-        "isCorrect": false
-      },
-      {
-        "text": "The RAM that has been added is the same type of RAM that is already installed.",
-        "isCorrect": true
-      }
-    ],
-    "order": 36,
-    "text": "The computer does not recognize the RAM that was added. Which of the following CANNOT be probable cause?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af88d"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Striping",
-        "isCorrect": true
-      },
-      {
-        "text": "Parity",
-        "isCorrect": false
-      },
-      {
-        "text": "Mirroring",
-        "isCorrect": false
-      },
-      {
-        "text": "Double Parity",
-        "isCorrect": false
-      }
-    ],
-    "order": 37,
-    "text": "This RAID type enables data to be distributed across multiple drives."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af88e"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Striping",
-        "isCorrect": false
-      },
-      {
-        "text": "Mirroring",
-        "isCorrect": false
-      },
-      {
-        "text": "Parity",
-        "isCorrect": true
-      },
-      {
-        "text": "Double Parity",
-        "isCorrect": false
-      }
-    ],
-    "order": 38,
-    "text": "This RAID type provides basic error checking and fault tolerance by storing checksums separately from data."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af88f"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Parity",
-        "isCorrect": false
-      },
-      {
-        "text": "Mirroring",
-        "isCorrect": false
-      },
-      {
-        "text": "Striping",
-        "isCorrect": false
-      },
-      {
-        "text": "Double Parity",
-        "isCorrect": true
-      }
-    ],
-    "order": 39,
-    "text": "This RAID type provides fault tolerance up to two failed drives."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af890"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Striping",
-        "isCorrect": false
-      },
-      {
-        "text": "Mirroring",
-        "isCorrect": true
-      },
-      {
-        "text": "Parity",
-        "isCorrect": false
-      },
-      {
-        "text": "Double Parity",
-        "isCorrect": false
-      }
-    ],
-    "order": 40,
-    "text": "This RAID type stores duplicate data on one or more other drives."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af891"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "True",
-        "isCorrect": true
-      },
-      {
-        "text": "False",
-        "isCorrect": false
-      }
-    ],
-    "order": 41,
-    "text": "UDP transfer protocol is faster than TCP"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af892"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "True",
-        "isCorrect": true
-      },
-      {
-        "text": "False",
-        "isCorrect": false
-      }
-    ],
-    "order": 42,
-    "text": "UDP transfer protocol is not reliable but fast."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af893"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "The computer does not have internet access.",
-        "isCorrect": true
-      },
-      {
-        "text": "The BIOS settings are incorrect.",
-        "isCorrect": false
-      },
-      {
-        "text": "The RAID controller has failed.",
-        "isCorrect": false
-      },
-      {
-        "text": "The external RAID controller is not receiving power.",
-        "isCorrect": false
-      }
-    ],
-    "order": 43,
-    "text": "What CANNOT be probable cause when RAID cannot be found?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af894"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "The external ports are disabled in the BIOS settings.",
-        "isCorrect": false
-      },
-      {
-        "text": "The removable external drive has 32 GB free space",
-        "isCorrect": true
-      },
-      {
-        "text": "The removable external drive cable is not seated properly.",
-        "isCorrect": false
-      },
-      {
-        "text": "The removable external drive is faulty",
-        "isCorrect": false
-      }
-    ],
-    "order": 44,
-    "text": "What CANNOT be probable cause when the computer does not recognize a removable external drive?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af895"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "The keyboard is not connected.",
-        "isCorrect": true
-      },
-      {
-        "text": "The power cable is loose",
-        "isCorrect": false
-      },
-      {
-        "text": "The jumpers are set incorrectly.",
-        "isCorrect": false
-      },
-      {
-        "text": "The data cable is loose.",
-        "isCorrect": false
-      }
-    ],
-    "order": 45,
-    "text": "What CANNOT be probable cause when the computer does not recognize a storage device?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af896"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "The optical drive is jammed.",
-        "isCorrect": false
-      },
-      {
-        "text": "The optical drive is faulty.",
-        "isCorrect": false
-      },
-      {
-        "text": "The optical drive is for rewritable CD's only",
-        "isCorrect": true
-      },
-      {
-        "text": "The optical drive has been locked by software.",
-        "isCorrect": false
-      }
-    ],
-    "order": 46,
-    "text": "What CANNOT be probable cause when the computer will not eject an optical disc?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af897"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Harvard Research Center",
-        "isCorrect": false
-      },
-      {
-        "text": "Massachusetts Research Center",
-        "isCorrect": false
-      },
-      {
-        "text": "Pew Research Center",
-        "isCorrect": true
-      },
-      {
-        "text": "Pew-Pew-Pew Center",
-        "isCorrect": false
-      }
-    ],
-    "order": 47,
-    "text": "What is the name of research organization which provided the statistics on smartphone usage in United States?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af898"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Thermal Paste",
-        "isCorrect": true
-      },
-      {
-        "text": "Thermal glue",
-        "isCorrect": false
-      },
-      {
-        "text": "Silicon Paste",
-        "isCorrect": false
-      },
-      {
-        "text": "Tooth Paste",
-        "isCorrect": false
-      }
-    ],
-    "order": 48,
-    "text": "What should you consider before installing heatsink on the CPU?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af899"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Triangle",
-        "isCorrect": false
-      },
-      {
-        "text": "Latches",
-        "isCorrect": false
-      },
-      {
-        "text": "Notches",
-        "isCorrect": true
-      },
-      {
-        "text": "Inches",
-        "isCorrect": false
-      }
-    ],
-    "order": 49,
-    "text": "What should you consider in order to correctly install RAM in to the RAM slot?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af89a"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Allign according to triangle",
-        "isCorrect": true
-      },
-      {
-        "text": "Vertically",
-        "isCorrect": false
-      },
-      {
-        "text": "Horizontally",
-        "isCorrect": false
-      },
-      {
-        "text": "Doesn't matter",
-        "isCorrect": false
-      }
-    ],
-    "order": 50,
-    "text": "When you are installing CPU into CPU slot, which guidance you should follow in order to allign it in right orientation?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af89b"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Intermediary Devices",
-        "isCorrect": false
-      },
-      {
-        "text": "Imaging devices",
-        "isCorrect": false
-      },
-      {
-        "text": "Host Devices",
-        "isCorrect": true
-      },
-      {
-        "text": "Server Devices",
-        "isCorrect": false
-      }
-    ],
-    "order": 51,
-    "text": "Which devices are at the end or edge of a network?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af89c"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Server Devices",
-        "isCorrect": false
-      },
-      {
-        "text": "Host Devices",
-        "isCorrect": false
-      },
-      {
-        "text": "Imaging devices",
-        "isCorrect": false
-      },
-      {
-        "text": "Intermediary Devices",
-        "isCorrect": true
-      }
-    ],
-    "order": 52,
-    "text": "Which devices exist in between the host devices?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af89d"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Desktop, Laptop, Server, Keyboard",
-        "isCorrect": false
-      },
-      {
-        "text": "LED Lamp, Scanner, IP Phone",
-        "isCorrect": false
-      },
-      {
-        "text": "Desktop, Laptop, Server, Fridge",
-        "isCorrect": false
-      },
-      {
-        "text": "Printer, IP Phone, Tablet",
-        "isCorrect": true
-      }
-    ],
-    "order": 53,
-    "text": "Which of the following are end devices (host devices)?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af89e"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Wireless router, Switch",
-        "isCorrect": true
-      },
-      {
-        "text": "Switch, IP Phone",
-        "isCorrect": false
-      },
-      {
-        "text": "Access point (AP), Tablet",
-        "isCorrect": false
-      },
-      {
-        "text": "Router, Scanner",
-        "isCorrect": false
-      }
-    ],
-    "order": 54,
-    "text": "Which of the following are intermediary devices?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af89f"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "VGA",
-        "isCorrect": false
-      },
-      {
-        "text": "PS/2",
-        "isCorrect": true
-      },
-      {
-        "text": "Display Port",
-        "isCorrect": false
-      },
-      {
-        "text": "HDMI",
-        "isCorrect": false
-      }
-    ],
-    "order": 55,
-    "text": "Which of the following are NOT Video and Graphic Ports?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8a0"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "VGA",
-        "isCorrect": false
-      },
-      {
-        "text": "USB",
-        "isCorrect": true
-      },
-      {
-        "text": "DP",
-        "isCorrect": false
-      },
-      {
-        "text": "DVI",
-        "isCorrect": false
-      }
-    ],
-    "order": 56,
-    "text": "Which of the following are NOT Video and Graphic Ports?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8a1"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "192.168.0.1",
-        "isCorrect": false
-      },
-      {
-        "text": "d:3:5::::0:1",
-        "isCorrect": false
-      },
-      {
-        "text": "google.com",
-        "isCorrect": false
-      },
-      {
-        "text": "443",
-        "isCorrect": true
-      }
-    ],
-    "order": 57,
-    "text": "Which of the following can be an example of Port Number?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8a2"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Youtube streaming",
-        "isCorrect": false
-      },
-      {
-        "text": "Downloading Youtube materials",
-        "isCorrect": true
-      },
-      {
-        "text": "Skype Meeting",
-        "isCorrect": false
-      },
-      {
-        "text": "Video Call",
-        "isCorrect": false
-      }
-    ],
-    "order": 58,
-    "text": "Which of the following can be an example of TCP?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8a3"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Streaming",
-        "isCorrect": false
-      },
-      {
-        "text": "Sending file thru Skype",
-        "isCorrect": true
-      },
-      {
-        "text": "Video Call",
-        "isCorrect": false
-      },
-      {
-        "text": "Skype Meeting",
-        "isCorrect": false
-      }
-    ],
-    "order": 59,
-    "text": "Which of the following can be an example of TCP?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8a4"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Sending audiomessage thru Whatsapp",
-        "isCorrect": false
-      },
-      {
-        "text": "Sending video file thru Whatsapp",
-        "isCorrect": false
-      },
-      {
-        "text": "Sending photo thru Whatsapp",
-        "isCorrect": false
-      },
-      {
-        "text": "Group call thru Whatsapp",
-        "isCorrect": true
-      }
-    ],
-    "order": 60,
-    "text": "Which of the following can be an example of UDP?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8a5"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Uploading file to Teams",
-        "isCorrect": false
-      },
-      {
-        "text": "Presenting ppt file thru Teams",
-        "isCorrect": false
-      },
-      {
-        "text": "Sending invitation for Teams meeting",
-        "isCorrect": false
-      },
-      {
-        "text": "Sending voice message thru Skype",
-        "isCorrect": true
-      }
-    ],
-    "order": 61,
-    "text": "Which of the following can be an example of UDP?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8a6"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "HTTP",
-        "isCorrect": false
-      },
-      {
-        "text": "TFTP",
-        "isCorrect": true
-      },
-      {
-        "text": "FTP",
-        "isCorrect": false
-      },
-      {
-        "text": "SMTP",
-        "isCorrect": false
-      }
-    ],
-    "order": 62,
-    "text": "Which of the following can be an example of UDP?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8a7"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "AC 3.3",
-        "isCorrect": false
-      },
-      {
-        "text": "DC 12V",
-        "isCorrect": false
-      },
-      {
-        "text": "AC 110V",
-        "isCorrect": true
-      },
-      {
-        "text": "DC 220V",
-        "isCorrect": false
-      }
-    ],
-    "order": 63,
-    "text": "Which of the following can be an input voltage for PC power supply?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8a8"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "AC 110V",
-        "isCorrect": false
-      },
-      {
-        "text": "DC 5V",
-        "isCorrect": true
-      },
-      {
-        "text": "AC 3.3V",
-        "isCorrect": false
-      },
-      {
-        "text": "DC 220V",
-        "isCorrect": false
-      }
-    ],
-    "order": 64,
-    "text": "Which of the following can be an output voltage of PC power supply?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8a9"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "PAN",
-        "isCorrect": true
-      },
-      {
-        "text": "LAN",
-        "isCorrect": false
-      },
-      {
-        "text": "VLAN",
-        "isCorrect": false
-      },
-      {
-        "text": "WLAN",
-        "isCorrect": false
-      }
-    ],
-    "order": 65,
-    "text": "Which of the following commonly uses Bluetooth to connect mice, keyboards, phones, and tablets."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8aa"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "WAN",
-        "isCorrect": false
-      },
-      {
-        "text": "MAN",
-        "isCorrect": false
-      },
-      {
-        "text": "VPN",
-        "isCorrect": false
-      },
-      {
-        "text": "WMN",
-        "isCorrect": true
-      }
-    ],
-    "order": 66,
-    "text": "Which of the following connects multiple wireless access points together to expand the wireless network."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8ab"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "VLAN",
-        "isCorrect": false
-      },
-      {
-        "text": "PAN",
-        "isCorrect": false
-      },
-      {
-        "text": "LAN",
-        "isCorrect": false
-      },
-      {
-        "text": "WLAN",
-        "isCorrect": true
-      }
-    ],
-    "order": 67,
-    "text": "Which of the following connects multiple wireless devices and uses an access point."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8ac"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "DSL",
-        "isCorrect": false
-      },
-      {
-        "text": "Cable",
-        "isCorrect": false
-      },
-      {
-        "text": "Satellite",
-        "isCorrect": true
-      },
-      {
-        "text": "Line of site wireless",
-        "isCorrect": false
-      }
-    ],
-    "order": 68,
-    "text": "Which of the following does not require a phone line or cable, but uses a parabolic antenna for two-way communication"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8ad"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "LAN",
-        "isCorrect": false
-      },
-      {
-        "text": "VLAN",
-        "isCorrect": true
-      },
-      {
-        "text": "WLAN",
-        "isCorrect": false
-      },
-      {
-        "text": "PAN",
-        "isCorrect": false
-      }
-    ],
-    "order": 69,
-    "text": "Which of the following extends beyond a traditional LAN and groups users based on administratively defined boundaries such as department or floor."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8ae"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Reset LED",
-        "isCorrect": true
-      },
-      {
-        "text": "Power switch",
-        "isCorrect": false
-      },
-      {
-        "text": "Power LED",
-        "isCorrect": false
-      },
-      {
-        "text": "Hard Drive LED",
-        "isCorrect": false
-      }
-    ],
-    "order": 70,
-    "text": "Which of the following is NOT a Front Panel Cables?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8af"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "quick reference guides",
-        "isCorrect": false
-      },
-      {
-        "text": "PC architecture for dummies",
-        "isCorrect": true
-      },
-      {
-        "text": "manufacturer manuals",
-        "isCorrect": false
-      },
-      {
-        "text": "troubleshooting guides",
-        "isCorrect": false
-      }
-    ],
-    "order": 71,
-    "text": "Which of the following is NOT included to Personal Reference Tools?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8b0"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Reduce computer downtime",
-        "isCorrect": false
-      },
-      {
-        "text": "Reduce speakers volume",
-        "isCorrect": true
-      },
-      {
-        "text": "Reduce hardware problem",
-        "isCorrect": false
-      },
-      {
-        "text": "Reduce repair costs",
-        "isCorrect": false
-      }
-    ],
-    "order": 72,
-    "text": "Which of the following is NOT regular preventive maintenance?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8b1"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Reduce HDD usage",
-        "isCorrect": true
-      },
-      {
-        "text": "Reduce computer downtime",
-        "isCorrect": false
-      },
-      {
-        "text": "Reduce software problem",
-        "isCorrect": false
-      },
-      {
-        "text": "Reduce number of equipment failures",
-        "isCorrect": false
-      }
-    ],
-    "order": 73,
-    "text": "Which of the following is NOT regular preventive maintenance?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8b2"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "SATA",
-        "isCorrect": true
-      },
-      {
-        "text": "Berg",
-        "isCorrect": false
-      },
-      {
-        "text": "Molex",
-        "isCorrect": false
-      },
-      {
-        "text": "USB",
-        "isCorrect": false
-      }
-    ],
-    "order": 74,
-    "text": "Which of the following is the internal data cable?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8b3"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "DHCP",
-        "isCorrect": false
-      },
-      {
-        "text": "HTTP",
-        "isCorrect": false
-      },
-      {
-        "text": "DNS",
-        "isCorrect": true
-      },
-      {
-        "text": "WAN",
-        "isCorrect": false
-      }
-    ],
-    "order": 75,
-    "text": "Which of the following server matches requested IP address with its own domain details. For example: you don't know the IP address of the Google site, you just type to browser google.com and this particular server will match appropriate IP address (8.8.8.8)."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8b4"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Hyper-Loop",
-        "isCorrect": false
-      },
-      {
-        "text": "Hyper-Threading",
-        "isCorrect": false
-      },
-      {
-        "text": "HyperTransport",
-        "isCorrect": true
-      },
-      {
-        "text": "Hyper Convergence",
-        "isCorrect": false
-      }
-    ],
-    "order": 76,
-    "text": "Which performance-enhancing feature is offered by AMD?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8b5"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Hyper-Loop",
-        "isCorrect": false
-      },
-      {
-        "text": "Hyper-Threading",
-        "isCorrect": true
-      },
-      {
-        "text": "HyperTransport",
-        "isCorrect": false
-      },
-      {
-        "text": "Hyper Convergence",
-        "isCorrect": false
-      }
-    ],
-    "order": 77,
-    "text": "Which performance-enhancing feature is offered by Intel?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8b6"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Escalate the problem to a customer",
-        "isCorrect": false
-      },
-      {
-        "text": "Take action on case that you qualified enough to handle",
-        "isCorrect": false
-      },
-      {
-        "text": "Escalate the problem to a technician with more experience",
-        "isCorrect": true
-      },
-      {
-        "text": "Reach the second floor by escalator",
-        "isCorrect": false
-      }
-    ],
-    "order": 78,
-    "text": "While doing troubleshooting how can you understand the term \"Escalation\"?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8b7"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Event Viewer",
-        "isCorrect": false
-      },
-      {
-        "text": "Archive",
-        "isCorrect": true
-      },
-      {
-        "text": "Device Manager",
-        "isCorrect": false
-      },
-      {
-        "text": "Beep Codes",
-        "isCorrect": false
-      }
-    ],
-    "order": 79,
-    "text": "While identifying the problem which of the following would not be informative?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8b8"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "hardware check on the peripheral components",
-        "isCorrect": false
-      },
-      {
-        "text": "software check for viruses and malware",
-        "isCorrect": false
-      },
-      {
-        "text": "hardware check on the main components of the computer",
-        "isCorrect": true
-      },
-      {
-        "text": "software check for bugs or code errors",
-        "isCorrect": false
-      }
-    ],
-    "order": 80,
-    "text": "Why BIOS performs POST?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8b9"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "to get wireless connectivity or to increase bandwidth.",
-        "isCorrect": true
-      },
-      {
-        "text": "captures photos from the web-camera.",
-        "isCorrect": false
-      },
-      {
-        "text": "imports video into a computer and records it on a hard drive.",
-        "isCorrect": false
-      },
-      {
-        "text": "determines the sound quality of your computer.",
-        "isCorrect": false
-      }
-    ],
-    "order": 81,
-    "text": "WiFi card ... ."
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8ba"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "DNS",
-        "isCorrect": false
-      },
-      {
-        "text": "DHCP",
-        "isCorrect": true
-      },
-      {
-        "text": "HTTP",
-        "isCorrect": false
-      },
-      {
-        "text": "WAN",
-        "isCorrect": false
-      }
-    ],
-    "order": 82,
-    "text": "You entered the classroom and connected your laptop to University WiFi. In order to access the internet your laptop needs to obtain an IP address. Which protocol provide you IP address?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8bb"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Power supply failure",
-        "isCorrect": false
-      },
-      {
-        "text": "Problems with UPS battery",
-        "isCorrect": false
-      },
-      {
-        "text": "Problems with CMOS battery",
-        "isCorrect": true
-      },
-      {
-        "text": "Wrong timezone settings",
-        "isCorrect": false
-      }
-    ],
-    "order": 83,
-    "text": "You found a problem: each time when you power off PC and disconnect it from power source you see the wrong date and time settings at next startup. What can be probable cause?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8bc"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "Too few users",
-        "isCorrect": false
-      },
-      {
-        "text": "Too many users",
-        "isCorrect": true
-      },
-      {
-        "text": "Extreme temperature and humidity environment",
-        "isCorrect": false
-      },
-      {
-        "text": "Dusty environment",
-        "isCorrect": false
-      }
-    ],
-    "order": 84,
-    "text": "You need to plan a preventive maintenance. Object description: Call center. Open office. Too many operators. Which factor should you highlight for yourself while developing preventative maintenance plan?"
-  },
-  {
-    "_id": {"$oid": "6999db8f4ce46505b60af8bd"},
-    "category": "COA Midterm",
-    "options": [
-      {
-        "text": "High traffic networks",
-        "isCorrect": false
-      },
-      {
-        "text": "Office environment",
-        "isCorrect": true
-      },
-      {
-        "text": "Too many users",
-        "isCorrect": false
-      },
-      {
-        "text": "Too few users",
-        "isCorrect": false
-      }
-    ],
-    "order": 85,
-    "text": "You need to plan a preventive maintenance. Object description: Cement factory. Operators has a PС's located in the production shop. Not too much PC's at each shop, network is not overloaded. Which factor should you highlight for yourself while developing preventative maintenance plan?"
-  }
+
+
+ 
 ]
 
 
